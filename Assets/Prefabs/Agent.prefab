@@ -4826,6 +4826,8 @@ GameObject:
   - component: {fileID: 5430793661821976180}
   - component: {fileID: 5430793661821976181}
   - component: {fileID: 5430793661821976182}
+  - component: {fileID: 5113843179021690493}
+  - component: {fileID: 4158049926335265541}
   m_Layer: 0
   m_Name: Agent
   m_TagString: Untagged
@@ -4938,13 +4940,38 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5430793661821976183}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d58f400be4f0249dba0aca10aad0abf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   goal: {fileID: 0}
   explosion: {fileID: 3568930309076684429}
+--- !u!114 &5113843179021690493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5430793661821976183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9472e73a59274b9b8da79d72004bd8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4158049926335265541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5430793661821976183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e164d72fde6840c7bb990ae74afe606, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 10
 --- !u!1 &5626477527339085109
 GameObject:
   m_ObjectHideFlags: 0

@@ -178,6 +178,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: agent
       objectReference: {fileID: 0}
+    - target: {fileID: 5430793661821976183, guid: c8d82e05ea45144f4a7fa0086370732f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5430793661821976185, guid: c8d82e05ea45144f4a7fa0086370732f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -262,6 +267,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Agent (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5430793661821976183, guid: c8d82e05ea45144f4a7fa0086370732f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5430793661821976185, guid: c8d82e05ea45144f4a7fa0086370732f,
         type: 3}
@@ -561,7 +571,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!114 &543113807
 MonoBehaviour:
@@ -991,6 +1001,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: agent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5430793661821976183, guid: c8d82e05ea45144f4a7fa0086370732f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5430793661821976185, guid: c8d82e05ea45144f4a7fa0086370732f,
         type: 3}
