@@ -12,7 +12,7 @@ public class InstantiationExample : MonoBehaviour
     void Start()
     {
 
-        for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 40; i++)
         {
             Instantiate(myPrefab, transform.position , Quaternion.identity);
 
