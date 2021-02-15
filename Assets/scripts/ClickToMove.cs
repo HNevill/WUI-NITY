@@ -14,8 +14,7 @@ using UnityEngine.AI;
         void Update() {
             if (Input.GetMouseButtonDown(0)) {
                 RaycastHit hit;
-
-                Debug.Log("clicked");
+            
                 if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, 100)) {
                     agent.SetDestination(hit.point);
                 }
